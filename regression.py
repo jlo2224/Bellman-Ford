@@ -38,7 +38,7 @@ def plot_data_and_regressions(x, y, y_linear_pred, y_log_pred):
 
 # Main function
 def main():
-    filename = 'graphs/long_exponential_dense.txt'  # Replace this with the path to your file
+    filename = 'metrics/long_exponential_dense.txt'  # Replace this with the path to your file
     
     # Load the data
     x, y = load_data(filename)

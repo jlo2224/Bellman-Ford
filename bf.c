@@ -92,8 +92,10 @@ void print_matrix(double * matrix, int v) {
 int main(int argc, char * argv[]) {
 	if (argc < 3) {
 		printf("Usage: ./bf <# of vertices> <p>\n");
+		printf("Alternate Usage: ./bf <# of vertices> <a> <b>\n(p=a/b in this alternate usage)\n");
 	} else if (argc > 4) {
-		printf("Wrong usage\n");
+		printf("Usage: ./bf <# of vertices> <p>\n");
+		printf("Alternate Usage: ./bf <# of vertices> <a> <b>\n(p=a/b in this alternate usage)\n");
 	}
 	int v = atoi(argv[1]);
 	float p = atof(argv[2]);

@@ -1,5 +1,5 @@
 i=500
-file="long_bernoulli_sparse.txt"
+file="metrics/long_bernoulli_sparse.txt"
 #echo "V E Iterations Attempted_Relaxations Successful_Relaxations Depth"
 #echo "-----------------------------------------------------------------"
 for j in {1..10}; do

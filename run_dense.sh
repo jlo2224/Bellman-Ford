@@ -1,5 +1,5 @@
 i=500
-file="long_uniform_dense.txt"
+file="metrics/long_uniform_dense.txt"
 #echo "V E Iterations Attempted_Relaxations Successful_Relaxations Depth"
 #echo "-----------------------------------------------------------------"
 for j in {1..5}; do
